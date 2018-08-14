@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemplo de Interação</title>
+		<script type="text/javascript" src="./assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="./chatbotAPI/src/keywords.js"></script>
+		<script type="text/javascript" src="./chatbotAPI/src/chatbot.js"></script>
+		<script type="text/javascript" src="./assets/js/main.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	</head>
+	<body>
+
+		<div container-body>
+			<div container-chat>
+				<div container-messages></div>
+			</div>
+
+			<div container-logs>
+				<form action="javascript:page.sendMessage();">
+					<textarea placeholder="Digite sua Mensagem Aqui"></textarea>
+					<button>Enviar</button>
+				</form>
+
+				<div block-logs>
+					<label>Logs de Indecisão ( Adicionar Interações) :</label>
+
+					<div container-indecisions>
+						
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>
